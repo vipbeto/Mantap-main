@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Mantap-main">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/scriptvps-main.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Mantap-main.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
