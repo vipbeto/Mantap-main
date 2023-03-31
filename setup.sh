@@ -27,25 +27,25 @@ CYAN='\033[0;36m'
 LIGHT='\033[0;37m'
 # ==========================================
 # Link Hosting Kalian Untuk Ssh Vpn
-akbarvpn="raw.githubusercontent.com/miftah06/Mantap-main/ssh"
+akbarvpn="raw.githubusercontent.com/miftah06/Mantap-main/master/ssh"
 # Link Hosting Kalian Untuk Sstp
-akbarvpnn="raw.githubusercontent.com/miftah06/Mantap-main/sstp"
+akbarvpnn="raw.githubusercontent.com/miftah06/Mantap-main/master/sstp"
 # Link Hosting Kalian Untuk Ssr
-akbarvpnnn="raw.githubusercontent.com/miftah06/Mantap-main/ssr"
+akbarvpnnn="raw.githubusercontent.com/miftah06/Mantap-main/master/ssr"
 # Link Hosting Kalian Untuk Shadowsocks
-akbarvpnnnn="raw.githubusercontent.com/miftah06/Mantap-main/shadowsocks"
+akbarvpnnnn="raw.githubusercontent.com/miftah06/Mantap-main/master/shadowsocks"
 # Link Hosting Kalian Untuk Wireguard
-akbarvpnnnnn="raw.githubusercontent.com/miftah06/Mantap-main/wireguard"
+akbarvpnnnnn="raw.githubusercontent.com/miftah06/Mantap-main/master/wireguard"
 # Link Hosting Kalian Untuk Xray
-akbarvpnnnnnn="raw.githubusercontent.com/miftah06/Mantap-main/xray"
+akbarvpnnnnnn="raw.githubusercontent.com/miftah06/Mantap-main/master/xray"
 # Link Hosting Kalian Untuk Ipsec
-akbarvpnnnnnnn="raw.githubusercontent.com/miftah06/Mantap-main/ipsec"
+akbarvpnnnnnnn="raw.githubusercontent.com/miftah06/Mantap-main/master/ipsec"
 # Link Hosting Kalian Untuk Backup
-akbarvpnnnnnnnn="raw.githubusercontent.com/miftah06/Mantap-main/backup"
+akbarvpnnnnnnnn="raw.githubusercontent.com/miftah06/Mantap-main/master/backup"
 # Link Hosting Kalian Untuk Websocket
-akbarvpnnnnnnnnn="raw.githubusercontent.com/miftah06/Mantap-main/websocket"
+akbarvpnnnnnnnnn="raw.githubusercontent.com/miftah06/Mantap-main/master/websocket"
 # Link Hosting Kalian Untuk Ohp
-akbarvpnnnnnnnnnn="raw.githubusercontent.com/miftah06/Mantap-main/ohp"
+akbarvpnnnnnnnnnn="raw.githubusercontent.com/miftah06/Mantap-main/master/ohp"
 
 # Getting
 # shellcheck disable=SC2034
@@ -81,16 +81,16 @@ wget https://${akbarvpnnnnnnnnn}/edu.sh && chmod +x edu.sh && ./edu.sh
 # Ohp Server
 wget https://${akbarvpnnnnnnnnnn}/ohp.sh && chmod +x ohp.sh && ./ohp.sh
 # Install SlowDNS
-wget https://raw.githubusercontent.com/miftah06/Mantap-main/SLDNS/install-sldns && chmod +x install-sldns && ./install-sldns
-# Informasi IP Saya dan Semua Port TCP UDP
-# wget https://raw.githubusercontent.com/miftah06/Mantap-main/ipsaya.sh && chmod +x ipsaya.sh
+wget https://raw.githubusercontent.com/miftah06/Mantap-main/master/SLDNS/install-sldns && chmod +x install-sldns && ./install-sldns
+#Informasi IP Saya dan Semua Port TCP UDP
+#wget https://raw.githubusercontent.com/miftah06/Mantap-main/master/ipsaya.sh && chmod +x ipsaya.sh
 #
 # install xray sl-grpc
-wget https://raw.githubusercontent.com/miftah06/Mantap-main/grpc/sl-grpc.sh && chmod +x sl-grpc.sh && screen -S sl-grpc ./sl-grpc.sh
+wget https://raw.githubusercontent.com/miftah06/Mantap-main/master/grpc/sl-grpc.sh && chmod +x sl-grpc.sh && screen -S sl-grpc ./sl-grpc.sh
 # install xray grpc
-wget https://raw.githubusercontent.com/miftah06/Mantap-main/grpc/xray-grpc.sh && chmod +x xray-grpc.sh && screen -S xray-grpc ./xray-grpc.sh
+wget https://raw.githubusercontent.com/miftah06/Mantap-main/master/grpc/xray-grpc.sh && chmod +x xray-grpc.sh && screen -S xray-grpc ./xray-grpc.sh
 # install shadowsocks plugin
-wget https://raw.githubusercontent.com/miftah06/Mantap-main/shadowsocks-plugin/install-ss-plugin.sh && chmod +x install-ss-plugin.sh && ./install-ss-plugin.sh
+wget https://raw.githubusercontent.com/miftah06/Mantap-main/master/shadowsocks-plugin/install-ss-plugin.sh && chmod +x install-ss-plugin.sh && ./install-ss-plugin.sh
 
 
 cat <<EOF> /etc/systemd/system/autosett.service
