@@ -4,7 +4,7 @@ Copy dan paste code di bawah ke dalam terminal lalu tekan enter.
 Update Repo Debian 10
 
   ```html
-apt update -y && apt upgrade -y && apt dist-upgrade -y && reboot
+apt update -y && apt upgrade -y && apt dist-upgrade -y && apt install git && reboot
   ```
  
 Perintah Install Copas ke Vps Mu<br>
