@@ -22,10 +22,10 @@ echo "$SUB_DOMAIN" >> /etc/v2ray/domain
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c5)
 subsl=$(</dev/urandom tr -dc a-z0-9 | head -c5)
 DOMAIN=tekno.gq
-SUB_DOMAIN=${sub}.tekno.gq
-NS_DOMAIN=jago-${sub}.tekno.gq
+SUB_DOMAIN=jago-${sub}.tekno.gq
+NS_DOMAIN=sijago-${sub}.tekno.gq
 CF_ID=izharuddinmiftah@gmail.com
-CF_KEY=eb9851ec9c1f1597dffa745472e33984
+CF_KEY=3292a1a8e44719e55d1af536eab5d4700be26
 set -euo pipefail
 IP=$(wget -qO- icanhazip.com);
 echo "Updating DNS for ${SUB_DOMAIN}..."
