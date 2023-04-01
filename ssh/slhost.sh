@@ -1,4 +1,5 @@
 #!/bin/bash
+# shellcheck disable=SC2034
 red='\e[1;31m'
 green='\e[0;32m'
 NC='\e[0m'
@@ -20,11 +21,11 @@ echo "$SUB_DOMAIN" >> /etc/v2ray/domain
 #
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c5)
 subsl=$(</dev/urandom tr -dc a-z0-9 | head -c5)
-DOMAIN=mantapxsl.my.id
-SUB_DOMAIN=onichan-${sub}.mantapxsl.my.id
-NS_DOMAIN=zerosl-${sub}.mantapxsl.my.id
-CF_ID=slinfinity69@gmail.com
-CF_KEY=dd2c5e0313f122b3c1833471d469b1025f492
+DOMAIN=tekno.gq
+SUB_DOMAIN=sijago-${sub}.tekno.gq
+NS_DOMAIN=jago-${sub}.tekno.gq
+CF_ID=izharuddinmiftah@gmail.com
+CF_KEY=eb9851ec9c1f1597dffa745472e33984
 set -euo pipefail
 IP=$(wget -qO- icanhazip.com);
 echo "Updating DNS for ${SUB_DOMAIN}..."
