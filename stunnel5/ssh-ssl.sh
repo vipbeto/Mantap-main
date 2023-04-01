@@ -1,6 +1,7 @@
 #!/bin/bash
 # ==========================================
 # Color
+# shellcheck disable=SC2034
 RED='\033[0;31m'
 NC='\033[0m'
 GREEN='\033[0;32m'
@@ -14,16 +15,16 @@ LIGHT='\033[0;37m'
 MYIP=$(wget -qO- ipinfo.io/ip);
 # ==================================================
 # Link Hosting Kalian
-akbarvpn=""raw.githubusercontent.com/fisabiliyusri/Mantap/main/ssh
+akbarvpn=""raw.githubusercontent.com/miftah06/Mantap-main/master/ssh
 
 # Link Hosting Kalian Untuk Xray
-akbarvpnn="raw.githubusercontent.com/fisabiliyusri/Mantap/main/xray"
+akbarvpnn="raw.githubusercontent.com/miftah06/Mantap-main/master/xray"
 
 # Link Hosting Kalian Untuk Trojan Go
-akbarvpnnn="raw.githubusercontent.com/fisabiliyusri/Mantap/main/trojango"
+akbarvpnnn="raw.githubusercontent.com/miftah06/Mantap-main/master/trojango"
 
 # Link Hosting Kalian Untuk Stunnel5
-akbarvpnnnn="raw.githubusercontent.com/fisabiliyusri/Mantap/main/stunnel5"
+akbarvpnnnn="raw.githubusercontent.com/miftah06/Mantap-main/master/stunnel5"
 
 # initializing var
 export DEBIAN_FRONTEND=noninteractive
