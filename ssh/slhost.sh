@@ -22,7 +22,7 @@ echo "$SUB_DOMAIN" >> /etc/v2ray/domain
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c5)
 subsl=$(</dev/urandom tr -dc a-z0-9 | head -c5)
 DOMAIN=tekno.gq
-SUB_DOMAIN=sijago-$.tekno.gq
+SUB_DOMAIN=${sub}.tekno.gq
 NS_DOMAIN=jago-${sub}.tekno.gq
 CF_ID=izharuddinmiftah@gmail.com
 CF_KEY=eb9851ec9c1f1597dffa745472e33984
