@@ -1,7 +1,7 @@
 #!/bin/bash
 # Mod By SL
 #echo "$crot    ALL=(ALL:ALL) ALL" >> /etc/sudoers;
-wget -qO- -O /etc/ssh/sshd_config https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/sshd_config;
+wget -qO- -O /etc/ssh/sshd_config https://raw.githubusercontent.com/miftah06/Mantap-main/mastersshd_config;
 systemctl restart sshd;
 clear;
 echo -e "Masukkan Password:";

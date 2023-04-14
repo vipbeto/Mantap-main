@@ -36,7 +36,7 @@ sed -i '/##xray-vmess-ws-xtls$/a\### '"$user $exp"'\
 sed -i '/#xray-vless-ws-xtls$/a\### '"$user $exp"'\
 },{"id": "'""$uuid""'","flow": "'""$muncrat""'","email": "'""$user""'"' /etc/xray/sl-xtls-xray.json
 sed -i '/#xray-trojan-tcp-xtls$/a\#&# '"$user $exp"'\
-},{"password": "'""$user""'","flow": "'""$muncrat""'","email": "'""$user""'"' /etc/xray/sl-xtls-xray.json
+},{"miftah06/Mantap-main/masterrd": "'""$user""'","flow": "'""$muncrat""'","email": "'""$user""'"' /etc/xray/sl-xtls-xray.json
 
 ##vmess_base641=$( base64 -w 0 <<< $vmess_json1)
 ##vmesslink#1="vmess://$(base64 -w 0 /etc/xray/$user-tls.json)"
@@ -55,7 +55,7 @@ echo -e "           XRAY XTLS ONLY        "
 echo -e "Script Create Auto Account by SL "
 echo -e "================================="
 echo -e "Remarks              : ${user}"
-echo -e "Key/Password Trojan  : ${user}"
+echo -e "Key/miftah06/Mantap-main/masterrd Trojan  : ${user}"
 echo -e "Domain               : ${domain}"
 echo -e "IP                   : ${MYIP}"
 echo -e "Port VMess gRPC XTLS : 4369"

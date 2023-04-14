@@ -31,7 +31,7 @@ domain=$IP
 fi
 tr="$(cat ~/log-install.txt | grep -w "Trojan" | cut -d: -f2|sed 's/ //g')"
 until [[ $user =~ ^[a-zA-Z0-9_]+$ && ${user_EXISTS} == '0' ]]; do
-		read -rp "Password : " -e user
+		read -rp "miftah06/Mantap-main/masterrd : " -e user
 		user_EXISTS=$(grep -w $user /etc/xray/config.json | wc -l)
 
 		if [[ ${user_EXISTS} == '1' ]]; then
@@ -44,7 +44,7 @@ read -p "Expired (Days) : " masaaktif
 hariini=`date -d "0 days" +"%Y-%m-%d"`
 exp=`date -d "$masaaktif days" +"%Y-%m-%d"`
 sed -i '/#xray-trojan$/a\#&# '"$user $exp"'\
-},{"password": "'""$user""'","email": "'""$user""'"' /etc/xray/config.json
+},{"miftah06/Mantap-main/masterrd": "'""$user""'","email": "'""$user""'"' /etc/xray/config.json
 systemctl restart xray.service
 trojanlink="trojan://${user}@${domain}:${tr}"
 service cron restart

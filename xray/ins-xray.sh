@@ -235,7 +235,7 @@ cat > /etc/xray/config.json << END
       "settings": {
         "clients": [
           {
-            "password": "${uuid5}"
+            "miftah06/Mantap-main/masterrd": "${uuid5}"
 #xray-trojan
           }
         ],
@@ -403,7 +403,7 @@ cat > /etc/trojan-go/config.json << END
   "remote_port": 89,
   "log_level": 1,
   "log_file": "/var/log/trojan-go/trojan-go.log",
-  "password": [
+  "miftah06/Mantap-main/masterrd": [
       "$uuid"
   ],
   "disable_http_check": true,
@@ -413,7 +413,7 @@ cat > /etc/trojan-go/config.json << END
     "verify_hostname": false,
     "cert": "/etc/xray/xray.crt",
     "key": "/etc/xray/xray.key",
-    "key_password": "",
+    "key_miftah06/Mantap-main/masterrd": "",
     "cipher": "",
     "curves": "",
     "prefer_server_cipher": false,
