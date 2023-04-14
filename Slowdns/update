@@ -49,7 +49,7 @@ echo ""
 echo -e "   \033[0;36mATUALIZANDO SCRIPT...\033[0m"
 echo ""
 fun_update () {
-rm -rf install && wget https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/Slowdns/install && chmod +x install && bash install
+rm -rf install && wget https://raw.githubusercontent.com/miftah06/Mantap-main/master/Slowdns/install && chmod +x install && bash install
 }
 fun_bar 'fun_update'
 sleep 3
